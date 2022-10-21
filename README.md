@@ -1,6 +1,6 @@
 # Ideas
 
-Some overdone, some smart ideas for anyone to build on top of.
+Some good, some bad ideas for anyone to build.
 
 If any of the following ideas already exist OR if you (decide to) build one, let me know: [arnav@arnavgosain.com](mailto:arnav@arnavgosain.com)
 
