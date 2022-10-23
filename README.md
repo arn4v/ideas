@@ -22,3 +22,13 @@ Firebase empowered frontend engineers to build full-stack apps. With one SDK, yo
 I've not found anything so far that does the same for common data engineering requirements. Can we empower web developers to work on data problems, without the overhead of having to learn data engineering from scratch?
 
 I imagine it to be something like Firebase, where you can start with say, ELT & warehousing, and then grow into transformation, governance, reverse ETL, et cetera.
+
+# Markdown CMS with GitHub Issues as the storage
+
+I've been contemplating using GitHub issues as a CMS for my blog, similar to how [@swyx](https://twitter.com/swyx) does it for [his blog](https://github.com/sw-yx/swyxdotio/issues/404).
+
+I'd like to see a spirital success to NetlifyCMS / alternative to [Outstatic](https://github.com/avitorio/outstatic) that uses GitHub issues as the underlying storage, instead of adding it to the git repo (which triggers a rebuild on Vercel).
+
+Outstatic is MIT licensed, so you can fork it and change the GraphQL queries/mutations to use GitHub issues (instead of files in the git repo) as the content storage.
+
+You can refer to this swyxkit to see how to get markdown from GitHub issues: https://github.com/sw-yx/swyxkit/blob/main/src/lib/content.js
